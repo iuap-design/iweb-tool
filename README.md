@@ -5,7 +5,7 @@
 ## install
 
 ```
-$ npm install iweb -g
+$ npm install iweb-tool -g
 ```
 
 ## development

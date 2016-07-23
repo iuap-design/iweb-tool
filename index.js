@@ -5,9 +5,6 @@
 var fs = require('fs');
 var fse = require('fs-extra');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-//var extend = require('util')._extend;
-
-
 
 /**
  * cope项目模板到当前工程目录
