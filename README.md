@@ -1,6 +1,6 @@
 # iweb
 
-> a tool for building resource.
+> a open-source tool for building resource.
 
 ## install
 

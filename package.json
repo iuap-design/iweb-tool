@@ -1,19 +1,31 @@
 {
   "name": "iweb-tool",
-  "version": "1.0.24",
-  "description": "iweb",
+  "version": "1.1.0",
+  "description": "a build tool based gulp & webpack",
   "main": "index.js",
+  "bin": {
+    "iweb": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": {
-    "iweb": "./bin/iweb.js"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iuap-design/iweb-tool.git"
   },
   "keywords": [
-    "iweb"
+    "iweb",
+    "tool",
+    "gulp",
+    "webpack",
+    "webpack-dev-server"
   ],
-  "author": "uapweb",
+  "author": "Yonyou FED",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iuap-design/iweb-tool/issues"
+  },
+  "homepage": "https://github.com/iuap-design/iweb-tool#readme",
   "dependencies": {
     "body-parser": "^1.14.2",
     "fs-extra": "^0.26.4",
@@ -22,33 +34,5 @@
     "webpack": "*",
     "webpack-dev-server": "*",
     "yargs": "^3.31.0"
-  },
-  "_shasum": "0d6b59a6f07b2075e9a86a719f20de034c113f88",
-  "_from": "@iuap_ieop/iweb@*",
-  "_npmVersion": "2.14.12",
-  "_nodeVersion": "4.2.5",
-  "_npmUser": {
-    "name": "iuap_ieop",
-    "email": "dingrf@yonyou.com"
-  },
-  "maintainers": [
-    "iuap_ieop <dingrf@yonyou.com>"
-  ],
-  "dist": {
-    "shasum": "0d6b59a6f07b2075e9a86a719f20de034c113f88",
-    "size": 3341269,
-    "key": "/@iuap_ieop/iweb/-/@iuap_ieop/iweb-1.0.24.tgz",
-    "tarball": "http://172.16.51.11:7001/@iuap_ieop/iweb/download/@iuap_ieop/iweb-1.0.24.tgz"
-  },
-  "_publish_on_cnpm": true,
-  "_cnpm_publish_time": 1456203870196,
-  "_resolved": "http://172.16.51.11:7001/@iuap_ieop/iweb/download/@iuap_ieop/iweb-1.0.24.tgz",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iuap-design/iweb-tool.git"
-  },
-  "bugs": {
-    "url": "https://github.com/iuap-design/iweb-tool/issues"
-  },
-  "homepage": "https://github.com/iuap-design/iweb-tool#readme"
+  }
 }
